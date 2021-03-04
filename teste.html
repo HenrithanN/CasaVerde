@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="../Casa Verde/CSS/base/base.css">
+    <!--Componentes-->
+    <link rel="stylesheet" href="../Casa Verde/CSS/componentes/botoes.css">
+    <link rel="stylesheet" href="../Casa Verde/CSS/componentes/input.css">
+    <link rel="stylesheet" href="../Casa Verde//CSS/componentes/card.css">
+    <link rel="stylesheet" href="../Casa Verde//CSS/componentes/item.css">
+    <link rel="stylesheet" href="../Casa Verde//CSS/componentes/produtos.css">
+    <link rel="stylesheet" href="../Casa Verde//CSS/componentes/video.css">
+    <link rel="stylesheet" href="../Casa Verde//CSS/componentes/cabecalho.css">
+    <link rel="stylesheet" href="../Casa Verde//CSS/componentes/rodape.css">
+
+
+
+
+
+
+    
+
+    <title>Teste</title>
+</head>
+<body>
+    <!--Estrutura do Cabecalho-->
+    <header class="container cabecalho">
+        <img src="Imagens/logo.svg" alt="Logo Casa Verde" class="cabecalho__Logo">
+        <a href="#" aria-label="Meu Carrinho"><img src="Imagens/Icones/carrinho.svg" alt="Icone Carrinho" class="cabecalho__Carrinho">
+        </a>
+    </header>
+    <!--Estrutura do Corpo-->
+
+    <main class="container">
+        <button class="botao">Assinar NewsLetter</button>
+        <input type="text" class="input input--Icone input--Email" 
+        placeholder="Insira aqui seu Email"
+        aria-label="Insira aqui seu Email">
+
+        <button class="botao botao--Alternativo">Botao Alternativo</button>  
+        
+        <article class="card">
+            <h2 class="titulo alinhamento-meio">
+                Como conseguir
+                <span class="titulo-destaque">
+                minha planta
+                </span>
+            </h2>
+            <ul class="lista-item">
+                <li class="item">
+                    <span class="item__icone item__icone--cursor"></span>
+                    <p>Escolha suas plantas</p>
+                </li>
+                <li class="item">
+                    <span class="item__icone item__icone--carrinho"></span>
+                    <p>Faça seus pedidos</p>
+                </li>
+                <li class="item">
+                    <span class="item__icone item__icone--caminhao"></span>
+                    <p>Aguarde em sua casa</p>
+                </li>
+            </ul>
+        </article>
+        <article class="produto">
+            <img src="Imagens/Produto_01.png" alt="Produto 01" class="produto__Imagem">
+            <div class="produto__Conteudo">
+                <h3 class="produto__Titulo titulo--destaque">Ajuga Reptans</h3>
+                <p class="produto__Preco">20,00R$</p>
+                <a href="#" class="produto__Comprar">Comprar
+                    <span class="produto__Comprar--Icone"></span>
+                </a>
+            </div>
+        </article>
+        <article class="cartao-de-video">
+            <div class="cartao-de-video__video">
+                <img src="https://th.bing.com/th/id/R04593332df296fea1b55d5a4bfb73cc5?rik=drsSqSkDKmxb9Q&riu=http%3a%2f%2fwww.imagensparawhats.club%2fwp-content%2fuploads%2f2019%2f02%2fPraia-16.jpg&ehk=8YsOCu1twwzQSCyKtBKntzAqGJSJUy03VMQvkA9iGfM%3d&risl=&pid=ImgRaw" alt="Imagem de video">
+                <h3 class="cartao-de-video__Titulo">Video XYZ</h3>
+                <p>Publicado em Março de 2019</p>
+            </div>
+
+        </article>
+        
+    </main>
+    <!--Estrutura do Rodape-->
+
+    <footer class="container rodape">
+        <img src="Imagens/logo.svg" alt="Logo Casa Verde" class="rodape__Logo">
+        <ul class="rodape__Social">
+            <li><a href="#" class="rodape__Social-midia" title="Facebook"><img src="Imagens/Icones/facebook.png" alt="Icone Facebook"></a></li>
+            <li><a href="#" class="rodape__Social-midia" title="Twitter"><img src="Imagens/Icones/twitter.svg" alt="Icone Twitter"></a></li>
+            <li><a href="#" class="rodape__Social-midia" title="Instagram"><img src="Imagens/Icones/instagram.png" alt="Icone Instagram"></a></li>
+        </ul>
+        <address class="rodape__Unidade texto">
+            <span class="rodape__Unidade-Titulo">Rio de Janeiro</span><br/>
+            Rua Siqueira Campos, 171, 303<br/>
+            Copacabana<br/>
+            Telefone: (21) 9 98776-0099
+        </address>
+        <address class="rodape__Unidade texto">
+            <span class="rodape__Unidade-Titulo">São Paulo</span><br/>
+            Rua Anita Garibaldi 33, 13<br/>
+            Sé<br/>
+            Telefone: (11) 9 9875-2201
+        </address>
+    </footer>
+    
+</body>
+</html>

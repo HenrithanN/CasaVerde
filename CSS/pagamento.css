@@ -1,0 +1,45 @@
+.pagamento__icone{
+    display: block;
+
+
+    width: 5.25rem;
+    height: 5.25rem;
+
+
+    background-color: var(--branco);
+
+    background-size: 5.325rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pagamento__icone--planta{
+    background-image: url(../Imagens/produto_02.png);
+}
+.item{
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+.lista-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pagamento__Imagem{
+    position: absolute;
+    top: 50%;
+    left: -8rem;
+
+    transform: translateY(-50%);
+
+    z-index: 1;
+
+    width: 18.75rem;
+    
+}
+.pagamento__borda{
+    border-bottom: 3px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+}

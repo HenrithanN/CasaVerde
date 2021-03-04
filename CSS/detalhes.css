@@ -1,0 +1,16 @@
+.detalhe {
+    padding-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.detalhe__Imagem{
+    position:relative;
+    bottom: 0;
+}
+.detalhe__Texto{
+    width: 20rem;
+}
+.detalhe__Texto--alternativo{
+    width: 20rem;
+    color: var(--amarelo);
+}

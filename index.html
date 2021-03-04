@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Casa Verde</title>
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="../Casa Verde/CSS/base/base.css">
+    <link rel="stylesheet" href="../Casa Verde/CSS/chamada.css">
+    <link rel="stylesheet" href="../Casa Verde/CSS/como-conseguir.css">
+    <link rel="stylesheet" href="../Casa Verde/CSS/ofertas.css">
+
+    <!--Componentes-->
+    <link rel="stylesheet" href="../Casa Verde/CSS/componentes/cabecalho.css">
+    <link rel="stylesheet" href="../Casa Verde/CSS/componentes/botoes.css">
+    <link rel="stylesheet" href="../Casa Verde/CSS/componentes/input.css">
+    <link rel="stylesheet" href="../Casa Verde/CSS/componentes/rodape.css">
+    <link rel="stylesheet" href="../Casa Verde/CSS/componentes/card.css">
+    <link rel="stylesheet" href="../Casa Verde/CSS/componentes/item.css">
+    <link rel="stylesheet" href="../Casa Verde/CSS/componentes/produtos.css">
+    <link rel="stylesheet" href="../Casa Verde/CSS/componentes/video.css">
+
+</head>
+<body>
+    <!--Cabecalho-->
+    <header class="cabecalho container">
+        <img src="Imagens/logo.svg" alt="Logo Casa Verde" class="cabecalho__Logo">
+        <a href="#" aria-label="Carrinho de Compras">
+            <img src="Imagens/Icones/carrinho.svg" alt="Carrinho de Compras" class="Logo__Carrinho">
+        </a>
+    </header>
+    <main>
+        <!--Inicio / Chamada-->
+        <section class="chamada container">
+            <h2 class="titulo">
+                Sua casa com as
+                <span class="titulo-destaque">
+                    melhores plantas
+                </span>
+            </h2>
+            <p class="chamada__Texto texto">
+                Encontre aqui uma vasta seleção de plantas para decorar a sua casa e 
+                torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e 
+                assine nossa newsletter para saber das novidades da marca.
+            </p>
+            <img src="Imagens/planta_Chamada.png" alt="Foto do Produto" class="chamada__Imagem">
+            <form action="#" class="chamada_Formulario">
+                <input type="text" class="input input--Icone input--Email" placeholder="Insira aqui seu E-mail" aria-label="Insira aqui seu E-mail">
+                <button class="botao">Acessar NewsLetter</button>
+            </form>
+        </section>
+
+        <!--Conteudo / Cartão-->
+        <section class="como-Conseguir container">
+            <article class="card">
+                <h2 class="titulo alinhamento-meio">
+                    Como conseguir
+                    <span class="titulo-destaque">
+                        minha planta
+                    </span>
+                </h2>
+                <ul class="lista-item">
+                    <li class="item">
+                        <span class="item__icone item__icone--cursor"></span>
+                        <p>Escolha suas plantas</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone--carrinho"></span>
+                        <p>Faça seus pedidos</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone--caminhao"></span>
+                        <p>Aguarde em sua casa</p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <!--Conteudo / Produtos-->
+        <section class="container ofertas">
+            <h2 class="titulo alinhamento-meio">
+                Conheça nossos
+                <span class="titulo-destaque">
+                    produtos
+                </span>
+            </h2>
+            <ul>
+                <li class="produto">
+                    <img src="Imagens/produto_01.png" alt="Foto do Produto 1" class="produto__Imagem">
+                    <div class="produto__Conteudo">
+                        <h3 class="produto__Titulo titulo-destaque">Ajuga Reptans</h3>
+                        <p class="produto__Preco">R$ 20,00</p>
+                        <a href="#" class="produto__Comprar">Comprar
+                            <span class="produto__Comprar--Icone"></span>
+                        </a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="Imagens/produto_02.png" alt="Foto do Produto 2" class="produto__Imagem">
+                    <div class="produto__Conteudo">
+                        <h3 class="produto__Titulo titulo-destaque">Cordyline fruticosa</h3>
+                        <p class="produto__Preco">R$ 20,00</p>
+                        <a href="detalhes.html" class="produto__Comprar">Comprar
+                            <span class="produto__Comprar--Icone"></span>
+                        </a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="Imagens/produto_03.png" alt="Foto do Produto 3" class="produto__Imagem">
+                    <div class="produto__Conteudo">
+                        <h3 class="produto__Titulo titulo-destaque">Crassula ovata</h3>
+                        <p class="produto__Preco">R$ 20,00</p>
+                        <a href="#" class="produto__Comprar">Comprar
+                            <span class="produto__Comprar--Icone"></span>
+                        </a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="Imagens/produto_04.png" alt="Foto do Produto 4" class="produto__Imagem">
+                    <div class="produto__Conteudo">
+                        <h3 class="produto__Titulo titulo-destaque">Cyperus rotundus</h3>
+                        <p class="produto__Preco">R$ 20,00</p>
+                        <a href="#" class="produto__Comprar">Comprar
+                            <span class="produto__Comprar--Icone"></span>
+                        </a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="Imagens/produto_05.png" alt="Foto do Produto 5" class="produto__Imagem">
+                    <div class="produto__Conteudo">
+                        <h3 class="produto__Titulo titulo-destaque">Delairea odorata</h3>
+                        <p class="produto__Preco">R$ 20,00</p>
+                        <a href="#" class="produto__Comprar">Comprar
+                            <span class="produto__Comprar--Icone"></span>
+                        </a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="Imagens/produto_06.png" alt="Foto do Produto 6" class="produto__Imagem">
+                    <div class="produto__Conteudo">
+                        <h3 class="produto__Titulo titulo-destaque">Datura metel</h3>
+                        <p class="produto__Preco">R$ 20,00</p>
+                        <a href="#" class="produto__Comprar">Comprar
+                            <span class="produto__Comprar--Icone"></span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!--Conteudo / Videos-->
+        <section class="container">
+            <h2 class="titulo alinhamento-meio">
+                Veja aqui nossos
+                <span class="titulo-destaque">videos</span>
+            </h2>
+            <ul>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="Imagens/video_01.png" alt="Capa do Video"></div>
+                    <h3 class="cartao-de-video__Titulo">Video XYZ</h3>
+                    <p>Publicado em Marçco de 2021</p>
+                </li>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="Imagens/video_02.png" alt="Capa do Video"></div>
+                    <h3 class="cartao-de-video__Titulo">Video XYZ</h3>
+                    <p>Publicado em Marçco de 2021</p>
+                </li>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="Imagens/video_03.png" alt="Capa do Video"></div>
+                    <h3 class="cartao-de-video__Titulo">Video XYZ</h3>
+                    <p>Publicado em Marçco de 2021</p>
+                </li>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="Imagens/video_04.png" alt="Capa do Video"></div>
+                    <h3 class="cartao-de-video__Titulo">Video XYZ</h3>
+                    <p>Publicado em Marçco de 2021</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <!--Rodape-->
+    <footer class="container rodape">
+        <img src="Imagens/logo.svg" alt="Logo Casa Verde" class="rodape__Logo">
+        <ul class="rodape__Social">
+            <li><a href="#" class="rodape__Social-midia" title="Facebook"><img src="Imagens/Icones/facebook.png" alt="Icone Facebook"></a></li>
+            <li><a href="#" class="rodape__Social-midia" title="Twitter"><img src="Imagens/Icones/twitter.svg" alt="Icone Twitter"></a></li>
+            <li><a href="#" class="rodape__Social-midia" title="Instagram"><img src="Imagens/Icones/instagram.png" alt="Icone Instagram"></a></li>
+        </ul>
+        <address class="rodape__Unidade texto">
+            <span class="rodape__Unidade-Titulo">Rio de Janeiro</span><br/>
+            Rua Siqueira Campos, 171, 303<br/>
+            Copacabana<br/>
+            Telefone: (21) 9 98776-0099
+        </address>
+        <address class="rodape__Unidade texto">
+            <span class="rodape__Unidade-Titulo">São Paulo</span><br/>
+            Rua Anita Garibaldi 33, 13<br/>
+            Sé<br/>
+            Telefone: (11) 9 9875-2201
+        </address>
+        
+    </footer>
+    
+</body>
+</html>

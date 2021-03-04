@@ -1,0 +1,72 @@
+@import url(_reset.css);
+
+@import url(_variaveis.css);
+
+body{
+    background-image: url(../../Imagens/fundo_Textura.png), url(../../Imagens/fundo_Linhas.png);
+    background-position: center;
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
+    color:var(--cinza);
+}
+
+.container{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.titulo{
+    font-size: var(--tamanho-titulo);
+}
+.titulo-destaque{
+    font-family: var(--familia-titulo-destaque);
+    color: var(--preto);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+
+    display: block;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.alinhamento-esquerda{
+    text-align: left;
+}
+
+.alinhamento-direita{
+    text-align: right;
+}
+
+.alinhamento-meio{
+    text-align: center;
+}
+
+.texto{
+    line-height: 26px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
+
+.Copyright{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.logoRodape{
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logoRodape:hover{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+.social{
+    background:black;
+    margin:20px;
+
+}
