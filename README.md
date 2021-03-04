@@ -1,5 +1,5 @@
 # Casa-Verde
-<ul>Projeto desenvolvido com intuito de melhorar as habilidades criando Layouts mobile.</ul>
+<ul>Projeto desenvolvido com intuito de melhorar as habilidades criando Layouts mobile e criando componentes.</ul>
 <ul>Site mobile para uma loja de Plantas.</ul>
 
 # Ferramentas utilizadas
